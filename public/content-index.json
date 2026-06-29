@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-06-29T17:39:40.930Z",
+  "items": [
+    {
+      "title": "Public content cockpit",
+      "date": "2026-06-29",
+      "type": "build",
+      "summary": "First public content repo and self-updating profile README scaffold.",
+      "tags": [
+        "public",
+        "content",
+        "github",
+        "agents"
+      ],
+      "status": "draft",
+      "path": "content/builds/2026-06-29-public-content-cockpit.md",
+      "url": "https://github.com/Bucurenciu-Cristian/kicky-public/blob/main/content/builds/2026-06-29-public-content-cockpit.md"
+    }
+  ]
+}
