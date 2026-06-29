@@ -15,16 +15,27 @@ This repo is public source for essays, build notes, and field reports. It feeds 
 - `content/notes/` — shorter observations
 - `content/builds/` — shipped systems, public changelog, field reports
 
-## Publishing loop
+## Daily loop
+
+Ten minutes. One artifact. No performance.
+
+```bash
+node scripts/daily-note.mjs "What got clearer today"
+$EDITOR content/notes/YYYY-MM-DD-what-got-clearer-today.md
+node scripts/build-index.mjs
+node scripts/check-freshness.mjs --max-age-days=1
+git add .
+git commit -m "Add daily public note"
+git push
+```
+
+For non-daily pieces:
 
 ```bash
 node scripts/new-content.mjs note "Short title"
-$EDITOR content/notes/YYYY-MM-DD-short-title.md
-node scripts/build-index.mjs
-git add .
-git commit -m "Add public note"
-git push
 ```
+
+A scheduled GitHub Action runs every morning and fails if public content is stale.
 
 ## Contract
 

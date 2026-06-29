@@ -63,7 +63,7 @@ for (const file of files) {
 items.sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
 
 await mkdir(outDir, { recursive: true });
-await writeFile(path.join(outDir, 'content-index.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), items }, null, 2)}\n`);
+await writeFile(path.join(outDir, 'content-index.json'), `${JSON.stringify({ items }, null, 2)}\n`);
 
 const list = items.slice(0, 10).map((item) => {
   const status = item.status && item.status !== 'published' ? ` _${item.status}_` : '';
