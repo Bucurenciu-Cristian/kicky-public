@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-06-29T17:41:43.115Z",
+  "generatedAt": "2026-06-29T17:45:07.885Z",
   "items": [
+    {
+      "title": "Get out of our heads",
+      "date": "2026-06-29",
+      "type": "note",
+      "summary": "A small public commitment to ship thinking as artifacts, not keep it private by default.",
+      "tags": [
+        "public",
+        "content",
+        "agents"
+      ],
+      "status": "published",
+      "path": "content/notes/2026-06-29-get-out-of-our-heads.md",
+      "url": "https://github.com/Bucurenciu-Cristian/kicky-public/blob/main/content/notes/2026-06-29-get-out-of-our-heads.md"
+    },
     {
       "title": "Public content cockpit",
       "date": "2026-06-29",
@@ -12,7 +26,7 @@
         "github",
         "agents"
       ],
-      "status": "draft",
+      "status": "published",
       "path": "content/builds/2026-06-29-public-content-cockpit.md",
       "url": "https://github.com/Bucurenciu-Cristian/kicky-public/blob/main/content/builds/2026-06-29-public-content-cockpit.md"
     }

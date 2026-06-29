@@ -4,12 +4,12 @@ date: 2026-06-29
 type: build
 summary: First public content repo and self-updating profile README scaffold.
 tags: [public, content, github, agents]
-status: draft
+status: published
 ---
 
 # Public content cockpit
 
-Time to get out of my head.
+Time to get out of my head. Time to make the work easier to inspect.
 
 This repo becomes public source for writing, build notes, and operator field reports. The GitHub profile README pulls from it automatically, so publishing becomes a small loop:
 
